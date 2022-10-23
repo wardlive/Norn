@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A36FCEA02905D0E300150E6F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FCE9F2905D0E300150E6F /* TabBar.swift */; };
+		A36FCEA42905EC9800150E6F /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FCEA32905EC9800150E6F /* Shapes.swift */; };
+		A36FCEB02906027D00150E6F /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = A36FCEAF2906027D00150E6F /* BottomSheet */; };
 		A384C10828EF62CD00E6CDA5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384C10728EF62CD00E6CDA5 /* LocationManager.swift */; };
 		A384C10B28EF658500E6CDA5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384C10A28EF658500E6CDA5 /* WelcomeView.swift */; };
 		A3935D4028EF5EEE007C95E2 /* NornApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3935D3F28EF5EEE007C95E2 /* NornApp.swift */; };
@@ -15,7 +18,7 @@
 		A3935D4728EF5EEE007C95E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3935D4628EF5EEE007C95E2 /* Preview Assets.xcassets */; };
 		A3C125E328F02BD200368578 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C125E228F02BD200368578 /* LoadingView.swift */; };
 		A3C125E528F0300200368578 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C125E428F0300200368578 /* WeatherManager.swift */; };
-		A3C125E728F03C5200368578 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C125E628F03C5200368578 /* WeatherView.swift */; };
+		A3C125E728F03C5200368578 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C125E628F03C5200368578 /* HomeView.swift */; };
 		A3C125E928F03CC900368578 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C125E828F03CC900368578 /* ModelData.swift */; };
 		A3C125EB28F03D2E00368578 /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = A3C125EA28F03D2E00368578 /* weatherData.json */; };
 		A3C125ED28F0402200368578 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C125EC28F0402200368578 /* Extentions.swift */; };
@@ -23,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A36FCE9F2905D0E300150E6F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		A36FCEA32905EC9800150E6F /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		A384C10728EF62CD00E6CDA5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		A384C10A28EF658500E6CDA5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		A3935D3C28EF5EEE007C95E2 /* Norn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Norn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,7 +37,7 @@
 		A3935D4628EF5EEE007C95E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3C125E228F02BD200368578 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		A3C125E428F0300200368578 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
-		A3C125E628F03C5200368578 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		A3C125E628F03C5200368578 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A3C125E828F03CC900368578 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A3C125EA28F03D2E00368578 /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
 		A3C125EC28F0402200368578 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
@@ -44,12 +49,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36FCEB02906027D00150E6F /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A36FCE9E2905D0C000150E6F /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A36FCE9F2905D0E300150E6F /* TabBar.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		A384C10628EF62A500E6CDA5 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,9 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				A3935D4128EF5EEE007C95E2 /* ContentView.swift */,
-				A3C125E628F03C5200368578 /* WeatherView.swift */,
+				A3C125E628F03C5200368578 /* HomeView.swift */,
 				A3C125E228F02BD200368578 /* LoadingView.swift */,
 				A384C10A28EF658500E6CDA5 /* WelcomeView.swift */,
+				A36FCE9E2905D0C000150E6F /* Navigation */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -96,6 +111,7 @@
 				A3935D4328EF5EEE007C95E2 /* Assets.xcassets */,
 				A3935D4528EF5EEE007C95E2 /* Preview Content */,
 				A3C125EC28F0402200368578 /* Extentions.swift */,
+				A36FCEA32905EC9800150E6F /* Shapes.swift */,
 			);
 			path = Norn;
 			sourceTree = "<group>";
@@ -134,6 +150,9 @@
 			dependencies = (
 			);
 			name = Norn;
+			packageProductDependencies = (
+				A36FCEAF2906027D00150E6F /* BottomSheet */,
+			);
 			productName = Norn;
 			productReference = A3935D3C28EF5EEE007C95E2 /* Norn.app */;
 			productType = "com.apple.product-type.application";
@@ -162,6 +181,9 @@
 				Base,
 			);
 			mainGroup = A3935D3328EF5EEE007C95E2;
+			packageReferences = (
+				A36FCEAE2906027D00150E6F /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			productRefGroup = A3935D3D28EF5EEE007C95E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -196,9 +218,11 @@
 				A3C125E328F02BD200368578 /* LoadingView.swift in Sources */,
 				A3C125EF28F084A000368578 /* WeatherRow.swift in Sources */,
 				A3C125E928F03CC900368578 /* ModelData.swift in Sources */,
-				A3C125E728F03C5200368578 /* WeatherView.swift in Sources */,
+				A3C125E728F03C5200368578 /* HomeView.swift in Sources */,
+				A36FCEA02905D0E300150E6F /* TabBar.swift in Sources */,
 				A384C10B28EF658500E6CDA5 /* WelcomeView.swift in Sources */,
 				A3C125ED28F0402200368578 /* Extentions.swift in Sources */,
+				A36FCEA42905EC9800150E6F /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +425,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A36FCEAE2906027D00150E6F /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wouter125/BottomSheet.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A36FCEAF2906027D00150E6F /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A36FCEAE2906027D00150E6F /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A3935D3428EF5EEE007C95E2 /* Project object */;
 }

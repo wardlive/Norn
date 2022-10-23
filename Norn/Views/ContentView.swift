@@ -17,7 +17,7 @@ struct ContentView: View {
             
             if let location = locationManager.location {
                 if let weather = weather {
-                    WeatherView(weather: weather)
+                    HomeView(weather: weather)
                 } else {
                     LoadingView()
                         .task {
