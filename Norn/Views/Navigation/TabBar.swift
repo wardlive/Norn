@@ -48,6 +48,7 @@ struct TabBar: View {
         }
         .frame(alignment: .bottom)
         .ignoresSafeArea()
+    //    .background(Color("Background"))
     }
 }
 

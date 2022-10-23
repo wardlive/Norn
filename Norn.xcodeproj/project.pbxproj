@@ -10,6 +10,7 @@
 		A36FCEA02905D0E300150E6F /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FCE9F2905D0E300150E6F /* TabBar.swift */; };
 		A36FCEA42905EC9800150E6F /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FCEA32905EC9800150E6F /* Shapes.swift */; };
 		A36FCEB02906027D00150E6F /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = A36FCEAF2906027D00150E6F /* BottomSheet */; };
+		A36FCEB2290605CD00150E6F /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36FCEB1290605CD00150E6F /* ForecastView.swift */; };
 		A384C10828EF62CD00E6CDA5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384C10728EF62CD00E6CDA5 /* LocationManager.swift */; };
 		A384C10B28EF658500E6CDA5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384C10A28EF658500E6CDA5 /* WelcomeView.swift */; };
 		A3935D4028EF5EEE007C95E2 /* NornApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3935D3F28EF5EEE007C95E2 /* NornApp.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		A36FCE9F2905D0E300150E6F /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		A36FCEA32905EC9800150E6F /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		A36FCEB1290605CD00150E6F /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		A384C10728EF62CD00E6CDA5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		A384C10A28EF658500E6CDA5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		A3935D3C28EF5EEE007C95E2 /* Norn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Norn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 				A3C125E628F03C5200368578 /* HomeView.swift */,
 				A3C125E228F02BD200368578 /* LoadingView.swift */,
 				A384C10A28EF658500E6CDA5 /* WelcomeView.swift */,
+				A36FCEB1290605CD00150E6F /* ForecastView.swift */,
 				A36FCE9E2905D0C000150E6F /* Navigation */,
 			);
 			path = Views;
@@ -217,6 +220,7 @@
 				A384C10828EF62CD00E6CDA5 /* LocationManager.swift in Sources */,
 				A3C125E328F02BD200368578 /* LoadingView.swift in Sources */,
 				A3C125EF28F084A000368578 /* WeatherRow.swift in Sources */,
+				A36FCEB2290605CD00150E6F /* ForecastView.swift in Sources */,
 				A3C125E928F03CC900368578 /* ModelData.swift in Sources */,
 				A3C125E728F03C5200368578 /* HomeView.swift in Sources */,
 				A36FCEA02905D0E300150E6F /* TabBar.swift in Sources */,
