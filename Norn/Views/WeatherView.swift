@@ -13,6 +13,7 @@ struct WeatherView: View {
     var body: some View {
         ZStack(alignment: .leading) {
             VStack() {
+                // Город и дата в VStack
                 VStack(alignment: .leading, spacing: 5) {
                     Text(weather.name)
                         .font(.largeTitle).bold()
@@ -28,10 +29,12 @@ struct WeatherView: View {
                 Spacer()
                 
                 VStack {
+                    // HStack значок погоды и температуры
                     HStack {
                         VStack(spacing: 20) {
+                            // Надо исправить чтобы менялся значек
                             Image(systemName: "cloud")
-                                .font(.system(size: 40))
+                                .font(.system(size: 50))
                             
                             Text("\(weather.weather[0].main)")
                         }
@@ -44,10 +47,11 @@ struct WeatherView: View {
                             .fontWeight(.semibold)
                             .padding()
                     }
-                    
+
                     Spacer()
                         .frame(height: 80)
                     
+                    // статическое изображение
                     Image("City")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
@@ -55,16 +59,14 @@ struct WeatherView: View {
                     
                     Spacer()
                 }
-                .frame(maxWidth: .infinity)
-                
-                Spacer()
-    
             }
             .padding(20)
             .frame(maxWidth: .infinity, alignment: .leading)
             
+            // Нижняя карточка
             VStack {
                 Spacer()
+                
                 VStack(alignment: .leading, spacing: 20) {
                     Text("Weather now")
                         .bold().padding(.bottom)
