@@ -33,9 +33,8 @@ struct WelcomeView: View {
             .symbolVariant(.fill)
             .foregroundColor(.white)
         }
-        .background(Color("Background"))
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        
+        .background(Color("Background"))
     }
 }
 
