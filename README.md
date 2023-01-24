@@ -1,6 +1,33 @@
-# Norn
-⛈ Simple Weather app in SwiftUI with OpenWeatherMap API
 
-|Light appearance|Dark appearance|
-|:-:|:-:|
-|![First Image](https://user-images.githubusercontent.com/41507524/194785912-5fe068af-7e9a-43c3-83a9-3a5206b84bb7.png)|![Second Image](https://user-images.githubusercontent.com/41507524/194785885-02e845e1-4c7e-4ed7-81bc-7c45cda98d12.png)|
+# Norn
+
+### ⛈ Minimalistic Weather app in SwiftUI with OpenWeatherMap API
+
+Welcome to Norn | a beautifully designed mobile weather app for your iPhone.
+
+Detailed forecast descriptions, stunning icons, and rich typography set Norn apart from other complicated weather apps. 
+Norn uses reliable forecasting data from the OpenWeatherMap API.
+
+## Features
+
+### Done 🔥
+
+- [x]  Light/dark mode
+- [x]  SwiftUI
+- [x]  Show weather by location
+- [x]  Application is made by SOLID principles 
+
+### To be added
+- [ ]  Search by city
+- [ ]  Lottie Animations
+
+
+
+## Screenshots
+
+![App Screenshot](https://user-images.githubusercontent.com/41507524/214387649-6b3ddf9d-03fd-4965-9c84-843f46430509.png)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
